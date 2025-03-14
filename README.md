@@ -7,10 +7,10 @@
 export API_URL=http://localhost:8080
 
 # Healthz check without DB connection
-curl -v $API_URL/healthz
+curl -v $API_URL/health
 
 # Healthz check with DB connection
-curl -v $API_URL/healthz/db
+curl -v $API_URL/health/db
 
 # Get current value
 curl $API_URL/value
