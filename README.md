@@ -28,3 +28,7 @@ curl -X DELETE $API_URL/clear
 PORT=8080
 MONGODB_URI=""
 ```
+
+## Diagram
+
+![Architecture Diagram](./images/diagram.png)
