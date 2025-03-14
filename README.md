@@ -1,5 +1,9 @@
 # MongoDB POC
 
+## Steps
+
+See [step-by-step guide](./STEPS.md) on how to deploy this POC to GCP.
+
 ## API
 
 ```sh
